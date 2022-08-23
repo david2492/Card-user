@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(./Images/usuarios.png);
+}
+h1 , h2 , h3 hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 500px;
+  border-radius: 5px;
+  padding: 20px;
+  border: 1px solid;
+  transition: transform 200ms ease;
+  background-image: linear-gradient(60deg, #513252, #FFC18E);
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 200ms ease;
+  
+}
+.card__item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 7px;
+  color: #A66CFF;
+  padding-left: 10px;
+  
+}
+
+.card__span {
+  color: black;
+  transform: translateX(-10px);
+}
+
+.card__footer {
+  display: flex;
+  gap: 20px;
+}
+.card__btn {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+.card__btn :nth-child(1){
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+
+}
+
+.card__btn:nth-child(1){
+  background-color: brown;
+  color: aliceblue;
+}
+
+.card__btn:nth-child(2){
+  background-color: purple;
+  color: aliceblue;
+}
